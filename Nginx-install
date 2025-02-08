@@ -1,0 +1,14 @@
+Nginx Installation
+
+Prerequisite:
+Launch an Nginx webserver in AWS
+Create a RedHat instance with T2 Micro
+Open the required ports  SSH port 22, All TCP , HTTP 80
+
+Installation:
+sudo yum install nginx -y
+sudo systemctl enable nginx
+sudo systemctl start nginx
+sudo hostname nginx
+# To check if nginx is running
+sudo systemctl status nginx       
